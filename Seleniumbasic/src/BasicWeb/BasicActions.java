@@ -1,0 +1,47 @@
+////testing a basic log in
+
+package BasicWeb;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class BasicActions {
+	public String baseUrl1 = ("http://letskodeit.teachable.com/");
+	String driverPath = "C:\\Users\\rassools\\Desktop\\ChromeD\\chromedriver.exe";
+    public WebDriver driver ;
+	
+	@Before
+	public void setUp() throws Exception {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\rassools\\Desktop\\ChromeD\\chromedriver.exe");
+		driver = new ChromeDriver();
+		baseUrl1 = "http://letskodeit.teachable.com/";
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().window().maximize();
+	}
+	
+	@Test
+	public void test() {
+		driver.get(baseUrl1);
+		driver.findElement(By.xpath("//div[@id='navbar']//a[@href='/sign_in']")).click();
+		System.out.println("Clicked on login");
+		driver.findElement(By.id("user_email")).sendKeys("rassools@ijet.com");
+		System.out.println("Sending keys to username field");
+		driver.findElement(By.id("user_password")).sendKeys("shamras21");
+		System.out.println("Sending keys to password field");
+		//driver.findElement(By.id("user_email")).clear();
+		//System.out.println("Clearing the username field");
+		driver.findElement(By.xpath("//input[@class = 'btn btn-primary btn-md login-button']"))
+	.click();}
+
+	@After
+	public void tearDown() throws Exception {
+		// driver.quit();
+	}
+}

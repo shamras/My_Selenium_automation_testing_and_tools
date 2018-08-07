@@ -1,0 +1,10 @@
+package com.expedia.Flightsbookings;
+
+import org.testng.annotations.Test;
+
+public class Testng_Demo2 {
+  
+	@Test
+  public void testMethod() {
+  }
+}

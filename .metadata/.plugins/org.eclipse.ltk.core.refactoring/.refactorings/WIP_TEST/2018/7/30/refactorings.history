@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Sources_Creation.java&apos; to &apos;Flightsbookings/src/test/java/com.expedia.Flightsbookings&apos;&#x0D;&#x0A;- Original project: &apos;WIP_TEST&apos;&#x0D;&#x0A;- Destination element: &apos;Flightsbookings/src/test/java/com.expedia.Flightsbookings&apos;&#x0D;&#x0A;- Original element: &apos;Source_Collections.Sources_Creation.java&apos;" description="Copy compilation unit" destination="=Flightsbookings/src\/test\/java&lt;com.expedia.Flightsbookings" element1="/src&lt;Source_Collections{Sources_Creation.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1532353670073" units="1" version="1.0"/>
+</session>

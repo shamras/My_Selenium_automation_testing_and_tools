@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Parallel TestSuite" duration-ms="39439" started-at="2018-07-05T09:01:29Z" finished-at="2018-07-05T09:02:08Z">
+    <groups>
+    </groups>
+    <test name="Firefox Test" duration-ms="39150" started-at="2018-07-05T09:01:29Z" finished-at="2018-07-05T09:02:08Z">
+      <class name="PracticeExercise.TestNG_Exercise1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PracticeExercise.TestNG_Exercise1@14acaea5]" name="beforeTest" is-config="true" duration-ms="12847" started-at="2018-07-05T11:01:29Z" finished-at="2018-07-05T11:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:PracticeExercise.TestNG_Exercise1@14acaea5]" name="login" duration-ms="26256" started-at="2018-07-05T11:01:42Z" finished-at="2018-07-05T11:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PracticeExercise.TestNG_Exercise1@14acaea5]" name="afterTest" is-config="true" duration-ms="1" started-at="2018-07-05T11:02:08Z" finished-at="2018-07-05T11:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- PracticeExercise.TestNG_Exercise1 -->
+    </test> <!-- Firefox Test -->
+    <test name="Chrome Test" duration-ms="39439" started-at="2018-07-05T09:01:29Z" finished-at="2018-07-05T09:02:08Z">
+      <class name="PracticeExercise.TestNG_Exercise1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:PracticeExercise.TestNG_Exercise1@7cd62f43]" name="beforeTest" is-config="true" duration-ms="12847" started-at="2018-07-05T11:01:29Z" finished-at="2018-07-05T11:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:PracticeExercise.TestNG_Exercise1@7cd62f43]" name="login" duration-ms="26548" started-at="2018-07-05T11:01:42Z" finished-at="2018-07-05T11:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:PracticeExercise.TestNG_Exercise1@7cd62f43]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-07-05T11:02:08Z" finished-at="2018-07-05T11:02:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- PracticeExercise.TestNG_Exercise1 -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Parallel TestSuite -->
+</testng-results>

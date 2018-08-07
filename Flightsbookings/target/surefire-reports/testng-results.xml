@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.expedia.Flightsbookings.Testng_Demo2" duration-ms="40" started-at="2018-07-23T13:51:22Z" finished-at="2018-07-23T13:51:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="40" started-at="2018-07-23T13:51:22Z" finished-at="2018-07-23T13:51:22Z">
+      <class name="com.expedia.Flightsbookings.Testng_Demo2">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:com.expedia.Flightsbookings.Testng_Demo2@6cd8737]" name="testMethod" duration-ms="9" started-at="2018-07-23T15:51:22Z" finished-at="2018-07-23T15:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- com.expedia.Flightsbookings.Testng_Demo2 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.expedia.Flightsbookings.Testng_Demo2 -->
+</testng-results>

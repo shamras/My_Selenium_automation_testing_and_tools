@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57" started-at="2018-07-09T13:24:18Z" finished-at="2018-07-09T13:24:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57" started-at="2018-07-09T13:24:18Z" finished-at="2018-07-09T13:24:18Z">
+      <class name="testclasses2.TestNG_DataProviders2">
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testclasses2.TestNG_DataProviders2@224edc67]" name="testMethod1" duration-ms="14" started-at="2018-07-09T15:24:18Z" data-provider="inputs" finished-at="2018-07-09T15:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bmw]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[m3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testclasses2.TestNG_DataProviders2@224edc67]" name="testMethod1" duration-ms="2" started-at="2018-07-09T15:24:18Z" data-provider="inputs" finished-at="2018-07-09T15:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Audi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="testMethod1(java.lang.String, java.lang.String)[pri:0, instance:testclasses2.TestNG_DataProviders2@224edc67]" name="testMethod1" duration-ms="10" started-at="2018-07-09T15:24:18Z" data-provider="inputs" finished-at="2018-07-09T15:24:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Benz]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c300]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+      </class> <!-- testclasses2.TestNG_DataProviders2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
